@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HeroSection from '../components/HeroSection';
+import BrandMarquee from '../components/BrandMarquee';
+import PasSection from '../components/PasSection';
+import ProgramOverview from '../components/ProgramOverview';
+import Features from '../components/Features';
+import Testimonials from '../components/Testimonials';
+import Bonuses from '../components/Bonuses';
+import Faq from '../components/Faq';
+import CtaSection from '../components/CtaSection';
+---
+
+<Layout title="Full Stack Developer Course">
+  <main class="bg-light">
+    <HeroSection client:load />
+    <BrandMarquee client:load />
+    <PasSection client:load />
+    <ProgramOverview client:load />
+    <Features client:load />
+    <Testimonials client:load />
+    <Bonuses client:load />
+    <Faq client:load />
+    <CtaSection client:load />
+  </main>
+</Layout>
